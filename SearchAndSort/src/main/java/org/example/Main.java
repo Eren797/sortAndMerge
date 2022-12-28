@@ -13,7 +13,7 @@ public class Main {
         insertionSort.sort(sortingList);
         selectionSort.sort(sortingList);
         bubbleSort.sort(sortingList);
-
+        System.out.println("------------------------------");
 
     }
 }
