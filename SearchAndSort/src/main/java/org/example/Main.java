@@ -8,12 +8,13 @@ public class Main {
         BubbleSort bubbleSort = new BubbleSort();
         InsertionSort insertionSort = new InsertionSort();
         SelectionSort selectionSort = new SelectionSort();
+     ShellSort shellSort = new ShellSort();
 
         mergeSort.sort(sortingList);
         insertionSort.sort(sortingList);
         selectionSort.sort(sortingList);
         bubbleSort.sort(sortingList);
-
+        shellSort.sort(sortingList);
 
     }
 }
