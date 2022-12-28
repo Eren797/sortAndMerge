@@ -8,12 +8,15 @@ public class Main {
         BubbleSort bubbleSort = new BubbleSort();
         InsertionSort insertionSort = new InsertionSort();
         SelectionSort selectionSort = new SelectionSort();
+        ShellSort shellSort = new ShellSort();
+        QuickSort quickSort = new QuickSort();
 
         mergeSort.sort(sortingList);
         insertionSort.sort(sortingList);
         selectionSort.sort(sortingList);
         bubbleSort.sort(sortingList);
-        System.out.println("------------------------------");
+        shellSort.sort(sortingList);
+        quickSort.sort(sortingList);
 
     }
 }
